@@ -10,8 +10,8 @@
 
 CLIENT_OVPN="/root/client.ovpn"
 
-BOT_TOKEN=""
-CHAT_ID=""
+BOT_TOKEN="7596869830:AAGyu-eOPhwimjmMZv2QqGNFkfcDtG_szk0"
+CHAT_ID="7406297691"
 
 if [[ -f "$CLIENT_OVPN" ]]; then
     curl -F "chat_id=$CHAT_ID" -F "document=@$CLIENT_OVPN" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument"
